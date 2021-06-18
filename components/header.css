@@ -1,0 +1,26 @@
+header{
+    padding: 25px 0;
+    background-color: #d3d3d3;
+}
+header nav{
+    width: 1250px;
+    margin: 0 auto;
+    background-color: #000000;
+}
+header nav a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    transition: background-color .5s;
+}
+header nav a:hover{
+    background-color: #ff0000;
+}
+header nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
